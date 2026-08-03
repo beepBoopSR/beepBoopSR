@@ -143,13 +143,14 @@ h1 .srd{
   padding:12px 0;border-bottom:1px dashed var(--line);
 }
 .circuit:last-of-type{border-bottom:none}
-.circuit .name{font-size:0.86rem;color:var(--muted)}
+.circuit .name{font-size:0.86rem;color:var(--muted);width:110px;flex-shrink:0}
 .circuit .watts{
   font-family:'Space Mono',monospace;font-weight:700;font-size:1.05rem;
+  width:80px;flex-shrink:0;text-align:right;
 }
 .bar{
   height:5px;border-radius:3px;background:var(--line);
-  width:110px;margin:0 16px;flex-shrink:0;overflow:hidden;
+  flex:1;margin:0 16px;overflow:hidden;
 }
 .bar i{
   display:block;height:100%;background:var(--green);border-radius:3px;
